@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+	<script src="index.js"></script>
+    <h1 id="title">How Did We Do?</h1>
+      <p id="description">Please give us feedback on what went great and how we can improve!</p>
+<form id="survey-form">
+<label id="name-label">Type Your Name:</label><br></br>
+  <input type="text" id="name" name="username" placeholder="Name" required><br><br>
+<label id="email-label">Email Address:</label><br><br>        
+<input type="email" id="email" name="email" placeholder="Email" required><br><br>
+<label id="number-label">Age:</label><br><br>
+<input type="number" id="number" max="100" min="1" placeholder="Age"><br><br>
+<option value="Yes!"></option>
+<label for="select">Would You Recommend Us?</label>
+<select id="dropdown" name="recommend us">
+  <option value="yes">Yes!</option>
+  <option value="no">No</option>
+</select>
+<br><br>
+<label id="radio">How Did You Find Our Services?</label><br><br>
+<input type="radio" id="survey-form" name="radio" value="google-search">Google Search
+<input type="radio" name="radio" id="survey-form" value="referral">Customer Referral
+<br><br>
+<label id="checkbox">What Can We Improve On?</label>
+<br><br>
+<input type="checkbox" name="pricing" value="pricing">Pricing
+<input type="checkbox" name="quality of products" value="quality of products">Quality of Products
+<br><br>
+<label id="text-area">Questions/Comments?</label>
+<br>
+<textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+<br><br>
+<button id="submit" type="submit">Submit</button>
+</form>
+<br>
+<h1>We Appreciate Your Business!</h1>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    background-image: url(http://4ft8232eec4l2jj8ja1la22k-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/2018_03_05_San_Antonio_020-Edit-copy.jpg); 
+    text-align: center;
+    
+  }
+  
+  h1 {
+    color: lightgreen;
+  }
+  
+  p {
+    color: white;
+    background: transparent;
+  }
+  
+  input {
+    background-color: white;
+  }
+  
+  #survey-form {
+    color: white}
+  
